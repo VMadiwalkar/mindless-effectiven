@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+.blurryText{
+
+   color: transparent;
+
+   text-shadow: 0 0 5px rgba(131,246,228,0.8);
+
+}
+
+.site-name {
+	font-size: 60px;
+    background-color: #565656;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+
+    -webkit-background-clip: text;  /*Chrome, Safari*/
+    -moz-background-clip: text; /*Firefox*/
+    background-clip: text;/*Standard Syntax*/
+}
+
+img:hover,a:hover{
+  transform: scale(1.2,1.2);
+}
+
+.link{
+  float: right;
+}
+
+
+body{
+	font-family: spectral;
+}
